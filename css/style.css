@@ -970,6 +970,9 @@ h2{
     flex-direction: column;
     
    }
+    .contacts__adress-text, .contacts__adress-mail{
+        padding: 0;
+    }
 
    
 }
@@ -978,7 +981,7 @@ h2{
 @media(max-width: 600px){
     .header__callback{
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
         gap: 20px;
         
     }
